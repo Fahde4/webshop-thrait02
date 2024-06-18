@@ -1,0 +1,183 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "SharedState",
+    "dateExported": "2023-11-01T13:49:19.230Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "f717ddb9-421b-4b1d-90b7-caa93056dd70",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "GetShoppingCart-8206",
+            "url": "http://localhost:8206/api-thrait02/shopping-cart-management/v1/GetShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-11-01T13:48:15.209Z",
+            "modified": "2023-11-01T13:48:15.209Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ]
+        },
+        {
+            "_id": "ba071b23-57fb-4ff8-b897-ff896c2a49a5",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "GetShoppingCart-8212",
+            "url": "http://localhost:8212/api-thrait02/shopping-cart-management/v1/GetShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-11-01T13:48:15.210Z",
+            "modified": "2023-11-01T13:48:15.210Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ]
+        },
+        {
+            "_id": "0146cb76-09e4-47ef-a51a-dbf23d5b9df5",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "GetShoppingCart-80",
+            "url": "http://localhost:80/api-thrait02/shopping-cart-management/v1/GetShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-11-01T13:48:15.211Z",
+            "modified": "2023-11-01T13:48:15.211Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ]
+        },
+        {
+            "_id": "cae55841-80cc-4eda-99f0-230d1adcccaf",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "DeleteShoppingCart-8206",
+            "url": "http://localhost:8206/api-thrait02/shopping-cart-management/v1/DeleteShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-11-01T13:48:15.212Z",
+            "modified": "2023-11-01T13:48:15.212Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ]
+        },
+        {
+            "_id": "193b3d4a-442a-4368-b9a0-7ee0205d0a26",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "DeleteShoppingCart-8212",
+            "url": "http://localhost:8212/api-thrait02/shopping-cart-management/v1/DeleteShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-11-01T13:48:15.213Z",
+            "modified": "2023-11-01T13:48:15.213Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ]
+        },
+        {
+            "_id": "ae07d2a5-1f3d-4eaf-8fd8-a6ddaaa2ab03",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "DeleteShoppingCart-80",
+            "url": "http://localhost:80/api-thrait02/shopping-cart-management/v1/DeleteShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2023-11-01T13:48:15.214Z",
+            "modified": "2023-11-01T13:48:15.214Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ]
+        },
+        {
+            "_id": "9026fb71-aadc-4aed-a61a-4fa3f426896b",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "PutItemsToShoppingCart-8206",
+            "url": "http://localhost:8206/api-thrait02/shopping-cart-management/v1/PutItemsToShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2023-11-01T13:48:15.229Z",
+            "modified": "2023-11-01T13:48:15.229Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "[{\r\n    \"id\": 2,\r\n    \"title\": \"Book\",\r\n    \"description\": \"A Great Book\",\r\n    \"price\": 12.95,\r\n    \"availability\": 4.0\r\n},{\r\n    \"id\": 5,\r\n    \"title\": \"Booky\",\r\n    \"description\": \"A Greaty Book\",\r\n    \"price\": 12.95,\r\n    \"availability\": 4.0\r\n}]"
+            }
+        },
+        {
+            "_id": "0243057f-49f0-48c7-93be-d0b8e903d1ff",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "PutItemsToShoppingCart-8212",
+            "url": "http://localhost:8212/api-thrait02/shopping-cart-management/v1/PutItemsToShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2023-11-01T13:48:15.230Z",
+            "modified": "2023-11-01T13:48:15.230Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "[{\r\n    \"id\": 2,\r\n    \"title\": \"Book\",\r\n    \"description\": \"A Great Book\",\r\n    \"price\": 12.95,\r\n    \"availability\": 4.0\r\n},{\r\n    \"id\": 5,\r\n    \"title\": \"Booky\",\r\n    \"description\": \"A Greaty Book\",\r\n    \"price\": 12.95,\r\n    \"availability\": 4.0\r\n}]"
+            }
+        },
+        {
+            "_id": "529dfdd4-4bdb-49c6-a1c2-a52493409322",
+            "colId": "2125f113-311a-4669-9f3b-456feff05d51",
+            "containerId": "",
+            "name": "PutItemsToShoppingCart-80",
+            "url": "http://localhost:80/api-thrait02/shopping-cart-management/v1/PutItemsToShoppingCart?sessionID=123",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2023-11-01T13:48:15.231Z",
+            "modified": "2023-11-01T13:48:15.231Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "sessionID",
+                    "value": "123"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "[{\r\n    \"id\": 2,\r\n    \"title\": \"Book\",\r\n    \"description\": \"A Great Book\",\r\n    \"price\": 12.95,\r\n    \"availability\": 4.0\r\n},{\r\n    \"id\": 5,\r\n    \"title\": \"Booky\",\r\n    \"description\": \"A Greaty Book\",\r\n    \"price\": 12.95,\r\n    \"availability\": 4.0\r\n}]"
+            }
+        }
+    ]
+}

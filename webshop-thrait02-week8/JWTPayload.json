@@ -1,0 +1,44 @@
+{
+    "exp": 1713715450,
+    "iat": 1713715150,
+    "auth_time": 1713715148,
+    "jti": "389b1f3b-f277-4c50-a08e-081b16f0dfde",
+    "iss": "http://localhost:8080/realms/thrait02-organisation",
+    "aud": "account",
+    "sub": "67830d26-c877-40e3-8b8a-657a002faf26",
+    "typ": "Bearer",
+    "azp": "thrait02-webshop",
+    "nonce": "964dc84c-5f27-4098-876e-8bcea2b9947a",
+    "session_state": "56103e20-b992-4147-8b30-f5c2ce026783",
+    "acr": "1",
+    "allowed-origins": [
+      "*"
+    ],
+    "realm_access": {
+      "roles": [
+        "offline_access",
+        "default-roles-thrait02-organisation",
+        "uma_authorization"
+      ]
+    },
+    "resource_access": {
+      "thrait02-webshop": {
+        "roles": [
+          "admin"
+        ]
+      },
+      "account": {
+        "roles": [
+          "manage-account",
+          "manage-account-links",
+          "view-profile"
+        ]
+      }
+    },
+    "scope": "openid profile email",
+    "sid": "56103e20-b992-4147-8b30-f5c2ce026783",
+    "email_verified": false,
+    "preferred_username": "thrait02",
+    "given_name": "",
+    "family_name": ""
+  }

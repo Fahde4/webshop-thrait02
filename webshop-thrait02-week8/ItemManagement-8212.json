@@ -1,0 +1,94 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "ItemManagement",
+    "dateExported": "2023-10-22T15:41:40.445Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "005e4e44-77c8-4f22-a6c8-33c0d5f7aa77",
+            "colId": "ff12cbe1-d396-41a5-90a3-84a949849d33",
+            "containerId": "",
+            "name": "Items",
+            "url": "http://localhost:8212/api-thrait02/item-management/v1/items",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-03-29T11:52:29.456Z",
+            "modified": "2023-10-22T15:41:12.730Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "ad120ba0-5778-422a-9a42-3ae11a598011",
+            "colId": "ff12cbe1-d396-41a5-90a3-84a949849d33",
+            "containerId": "",
+            "name": "Items",
+            "url": "http://localhost:8212/api-thrait02/item-management/v1/items",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-03-29T11:52:29.457Z",
+            "modified": "2023-10-22T13:31:03.013Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Transfer-Encoding",
+                    "value": "chunked"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"Book\",\n    \"description\": \"A Great Book\",\n    \"price\": \"12.95\",\n    \"availability\": \"5\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "9edcacff-9d4a-4941-9afe-492a6dbcb342",
+            "colId": "ff12cbe1-d396-41a5-90a3-84a949849d33",
+            "containerId": "",
+            "name": "Items",
+            "url": "http://localhost:8212/api-thrait02/item-management/v1/items/1",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-03-29T11:52:29.458Z",
+            "modified": "2023-10-22T13:32:41.308Z",
+            "headers": [
+                {
+                    "name": "Accept",
+                    "value": "application/json"
+                },
+                {
+                    "name": "Transfer-Encoding",
+                    "value": "chunked"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"title\": \"Book\",\n    \"description\": \"Another Famous Book\",\n    \"price\": \"12.95\",\n    \"availability\" : \"6\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "b9459083-c043-4979-b915-4926dcd53bbc",
+            "colId": "ff12cbe1-d396-41a5-90a3-84a949849d33",
+            "containerId": "",
+            "name": "Item/1",
+            "url": "http://localhost:8212/api-thrait02/item-management/v1/items/1",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-03-29T11:52:29.459Z",
+            "modified": "2023-10-22T13:33:23.457Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
+          
